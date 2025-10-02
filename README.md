@@ -1,6 +1,11 @@
 # 💰 GroupSavings - Collaborative Savings Tracker
 
-A modern React application for tracking group savings goals with real-time progress monitoring, contribution management, and detailed analytics.
+A modern React application for tracking group savings goals with real-time ### 🌟 GitHub Features
+
+### ⭐ Star this repository if you find it useful!
+
+### 🚀 Quick Demo
+Visit the live demo: [GroupSavings Demo](https://herry360.github.io/groupsaving)ss monitoring, contribution management, and detailed analytics.
 
 ## 🌟 Features
 
@@ -186,7 +191,7 @@ Visit the live demo: [GroupSavings Demo](https://yourusername.github.io/groupsav
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 ### 📊 Project Stats
-![GitHub stars](https://img.shields.io/github/stars/yourusername/groupsaving?style=social)
-![GitHub forks](https://img.shields.io/github/forks/yourusername/groupsaving?style=social)
-![GitHub issues](https://img.shields.io/github/issues/yourusername/groupsaving)
-![GitHub license](https://img.shields.io/github/license/yourusername/groupsaving)
+![GitHub stars](https://img.shields.io/github/stars/Herry360/groupsaving?style=social)
+![GitHub forks](https://img.shields.io/github/forks/Herry360/groupsaving?style=social)
+![GitHub issues](https://img.shields.io/github/issues/Herry360/groupsaving)
+![GitHub license](https://img.shields.io/github/license/Herry360/groupsaving)
