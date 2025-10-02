@@ -1,0 +1,307 @@
+[
+  {
+    "id": 1,
+    "name": "European Summer Adventure",
+    "description": "A 3-week journey through Italy, France, and Spain including flights, accommodations, meals, and experiences for our college friend group reunion.",
+    "category": "Travel",
+    "target": 12500,
+    "current": 8750,
+    "deadline": "2025-06-15",
+    "status": "active",
+    "priority": "high",
+    "visibility": "private",
+    "currency": "USD",
+    "participants": [
+      {
+        "name": "Alice Johnson",
+        "email": "alice.johnson@email.com",
+        "role": "admin",
+        "joinedDate": "2024-09-01",
+        "totalContributed": 3500,
+        "avatar": "👩‍💼"
+      },
+      {
+        "name": "Bob Smith",
+        "email": "bob.smith@email.com", 
+        "role": "member",
+        "joinedDate": "2024-09-05",
+        "totalContributed": 2750,
+        "avatar": "👨‍🎨"
+      },
+      {
+        "name": "Harry Chen",
+        "email": "harry.chen@email.com",
+        "role": "member", 
+        "joinedDate": "2024-09-10",
+        "totalContributed": 2500,
+        "avatar": "👨‍💻"
+      }
+    ],
+    "contributions": [
+      {"id": 1, "name": "Alice Johnson", "amount": 2000, "date": "2024-09-15", "method": "bank_transfer", "note": "Initial contribution for flights"},
+      {"id": 2, "name": "Bob Smith", "amount": 1500, "date": "2024-09-20", "method": "credit_card", "note": "September contribution"},
+      {"id": 3, "name": "Harry Chen", "amount": 1250, "date": "2024-09-25", "method": "paypal", "note": "Getting started!"},
+      {"id": 4, "name": "Alice Johnson", "amount": 1500, "date": "2024-10-01", "method": "bank_transfer", "note": "October boost"},
+      {"id": 5, "name": "Bob Smith", "amount": 1250, "date": "2024-10-05", "method": "credit_card", "note": "Hotels booking fund"},
+      {"id": 6, "name": "Harry Chen", "amount": 1250, "date": "2024-10-10", "method": "bank_transfer", "note": "Catching up"}
+    ],
+    "milestones": [
+      {"amount": 4000, "description": "Flight bookings secured", "achieved": true, "date": "2024-09-28"},
+      {"amount": 8000, "description": "Hotel reservations confirmed", "achieved": true, "date": "2024-10-12"},
+      {"amount": 12500, "description": "Full trip budget ready", "achieved": false, "date": null}
+    ],
+    "createdDate": "2024-09-01",
+    "lastActivity": "2024-10-10",
+    "reminderFrequency": "weekly",
+    "autoContribution": false,
+    "tags": ["travel", "friends", "europe", "vacation"],
+    "goalImage": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": 2,
+    "name": "Family Emergency Safety Net",
+    "description": "Building a comprehensive emergency fund to cover 6 months of family expenses, medical emergencies, and unexpected financial challenges.",
+    "category": "Emergency",
+    "target": 18000,
+    "current": 14250,
+    "deadline": "2025-08-01",
+    "status": "active",
+    "priority": "critical",
+    "visibility": "private",
+    "currency": "ZAR",
+    "participants": [
+      {
+        "name": "Alice Johnson",
+        "email": "alice.johnson@email.com",
+        "role": "admin",
+        "joinedDate": "2024-08-01",
+        "totalContributed": 4500,
+        "avatar": "👩‍💼"
+      },
+      {
+        "name": "Bob Smith", 
+        "email": "bob.smith@email.com",
+        "role": "member",
+        "joinedDate": "2024-08-01",
+        "totalContributed": 3750,
+        "avatar": "👨‍🎨"
+      },
+      {
+        "name": "Charlie Wilson",
+        "email": "charlie.wilson@email.com",
+        "role": "member",
+        "joinedDate": "2024-08-05",
+        "totalContributed": 3000,
+        "avatar": "👨‍🔬"
+      },
+      {
+        "name": "Diana Martinez",
+        "email": "diana.martinez@email.com",
+        "role": "member",
+        "joinedDate": "2024-08-10",
+        "totalContributed": 3000,
+        "avatar": "👩‍🎓"
+      }
+    ],
+    "contributions": [
+      {"id": 7, "name": "Alice Johnson", "amount": 2000, "date": "2024-08-10", "method": "bank_transfer", "note": "Emergency fund kickstart"},
+      {"id": 8, "name": "Bob Smith", "amount": 1500, "date": "2024-08-15", "method": "direct_deposit", "note": "Monthly emergency savings"},
+      {"id": 9, "name": "Charlie Wilson", "amount": 1500, "date": "2024-08-20", "method": "bank_transfer", "note": "Safety first contribution"},
+      {"id": 10, "name": "Diana Martinez", "amount": 1500, "date": "2024-08-25", "method": "paypal", "note": "Family security fund"},
+      {"id": 11, "name": "Alice Johnson", "amount": 2500, "date": "2024-09-10", "method": "bank_transfer", "note": "Bonus allocation"},
+      {"id": 12, "name": "Bob Smith", "amount": 2250, "date": "2024-09-15", "method": "direct_deposit", "note": "September safety net"},
+      {"id": 13, "name": "Charlie Wilson", "amount": 1500, "date": "2024-09-20", "method": "bank_transfer", "note": "Steady progress"},
+      {"id": 14, "name": "Diana Martinez", "amount": 1500, "date": "2024-09-25", "method": "credit_card", "note": "Building security"}
+    ],
+    "milestones": [
+      {"amount": 6000, "description": "One month expenses covered", "achieved": true, "date": "2024-08-25"},
+      {"amount": 12000, "description": "Three months security", "achieved": true, "date": "2024-09-15"},
+      {"amount": 18000, "description": "Six months full coverage", "achieved": false, "date": null}
+    ],
+    "createdDate": "2024-08-01",
+    "lastActivity": "2024-09-25",
+    "reminderFrequency": "monthly",
+    "autoContribution": true,
+    "tags": ["emergency", "family", "security", "savings"],
+    "goalImage": "https://images.unsplash.com/photo-1554224155-6726b3ff858f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": 3,
+    "name": "Emma & Frank's Dream Wedding",
+    "description": "A magical outdoor wedding celebration with 150 guests, including venue, catering, photography, flowers, music, and honeymoon in Bali.",
+    "category": "Wedding",
+    "target": 32000,
+    "current": 32000,
+    "deadline": "2024-10-01",
+    "status": "completed",
+    "priority": "high",
+    "visibility": "public",
+    "currency": "ZAR",
+    "participants": [
+      {
+        "name": "Emma Davis",
+        "email": "emma.davis@email.com",
+        "role": "admin",
+        "joinedDate": "2024-06-01",
+        "totalContributed": 16000,
+        "avatar": "👰‍♀️"
+      },
+      {
+        "name": "Frank Thompson",
+        "email": "frank.thompson@email.com",
+        "role": "admin",
+        "joinedDate": "2024-06-01", 
+        "totalContributed": 16000,
+        "avatar": "🤵‍♂️"
+      }
+    ],
+    "contributions": [
+      {"id": 15, "name": "Emma Davis", "amount": 8000, "date": "2024-07-01", "method": "bank_transfer", "note": "Venue deposit and initial planning"},
+      {"id": 16, "name": "Frank Thompson", "amount": 8000, "date": "2024-07-01", "method": "bank_transfer", "note": "Matching Emma's contribution"},
+      {"id": 17, "name": "Emma Davis", "amount": 5000, "date": "2024-08-15", "method": "savings_transfer", "note": "Catering and photography"},
+      {"id": 18, "name": "Frank Thompson", "amount": 5000, "date": "2024-08-15", "method": "savings_transfer", "note": "Music and decorations"},
+      {"id": 19, "name": "Emma Davis", "amount": 3000, "date": "2024-09-10", "method": "bank_transfer", "note": "Final details and contingency"},
+      {"id": 20, "name": "Frank Thompson", "amount": 3000, "date": "2024-09-10", "method": "bank_transfer", "note": "Honeymoon fund completion"}
+    ],
+    "milestones": [
+      {"amount": 10000, "description": "Venue secured", "achieved": true, "date": "2024-07-05"},
+      {"amount": 20000, "description": "Major vendors booked", "achieved": true, "date": "2024-08-20"},
+      {"amount": 28000, "description": "All essentials covered", "achieved": true, "date": "2024-09-05"},
+      {"amount": 32000, "description": "Dream wedding fully funded", "achieved": true, "date": "2024-09-15"}
+    ],
+    "createdDate": "2024-06-01",
+    "completedDate": "2024-09-15",
+    "lastActivity": "2024-09-15",
+    "reminderFrequency": "weekly",
+    "autoContribution": false,
+    "tags": ["wedding", "celebration", "love", "milestone"],
+    "goalImage": "https://images.unsplash.com/photo-1519741497674-611481863552?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+    "finalNotes": "Successfully saved for and celebrated our dream wedding! Exceeded target by R7,000 which went towards upgraded honeymoon suite."
+  },
+  {
+    "id": 4,
+    "name": "Tech Startup Launch Fund",
+    "description": "Pooling resources to launch our innovative mobile app startup, covering development, marketing, legal fees, and initial operating costs for the first year.",
+    "category": "Business",
+    "target": 45000,
+    "current": 28500,
+    "deadline": "2025-12-31",
+    "status": "active",
+    "priority": "high",
+    "visibility": "private",
+    "currency": "USD",
+    "participants": [
+      {
+        "name": "Alex Rivera",
+        "email": "alex.rivera@email.com",
+        "role": "admin",
+        "joinedDate": "2024-09-20",
+        "totalContributed": 12000,
+        "avatar": "👨‍💻"
+      },
+      {
+        "name": "Sarah Kim",
+        "email": "sarah.kim@email.com",
+        "role": "admin",
+        "joinedDate": "2024-09-20",
+        "totalContributed": 10000,
+        "avatar": "👩‍🎨"
+      },
+      {
+        "name": "Mike Johnson",
+        "email": "mike.johnson@email.com",
+        "role": "member",
+        "joinedDate": "2024-09-25",
+        "totalContributed": 6500,
+        "avatar": "👨‍💼"
+      }
+    ],
+    "contributions": [
+      {"id": 21, "name": "Alex Rivera", "amount": 8000, "date": "2024-09-25", "method": "bank_transfer", "note": "Development tools and infrastructure"},
+      {"id": 22, "name": "Sarah Kim", "amount": 6000, "date": "2024-09-30", "method": "savings_transfer", "note": "Design and UX resources"},
+      {"id": 23, "name": "Mike Johnson", "amount": 4000, "date": "2024-10-05", "method": "investment_transfer", "note": "Business development fund"},
+      {"id": 24, "name": "Alex Rivera", "amount": 4000, "date": "2024-10-15", "method": "bank_transfer", "note": "Legal and compliance setup"},
+      {"id": 25, "name": "Sarah Kim", "amount": 4000, "date": "2024-10-20", "method": "bank_transfer", "note": "Marketing and branding"},
+      {"id": 26, "name": "Mike Johnson", "amount": 2500, "date": "2024-10-25", "method": "bank_transfer", "note": "Operations and admin"}
+    ],
+    "milestones": [
+      {"amount": 15000, "description": "MVP development funded", "achieved": true, "date": "2024-10-10"},
+      {"amount": 30000, "description": "Beta testing and marketing", "achieved": false, "date": null},
+      {"amount": 45000, "description": "Full launch ready", "achieved": false, "date": null}
+    ],
+    "createdDate": "2024-09-20",
+    "lastActivity": "2024-10-25",
+    "reminderFrequency": "bi_weekly",
+    "autoContribution": false,
+    "tags": ["startup", "technology", "business", "innovation"],
+    "goalImage": "https://images.unsplash.com/photo-1556761175-b413da4baf72?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+  },
+  {
+    "id": 5,
+    "name": "Community Garden Project",
+    "description": "Creating a sustainable community garden with raised beds, irrigation system, tool shed, and educational programs for local families and schools.",
+    "category": "Community",
+    "target": 8500,
+    "current": 6750,
+    "deadline": "2025-04-01",
+    "status": "active",
+    "priority": "medium",
+    "visibility": "public",
+    "currency": "ZAR",
+    "participants": [
+      {
+        "name": "Maria Gonzalez",
+        "email": "maria.gonzalez@email.com",
+        "role": "admin",
+        "joinedDate": "2024-08-15",
+        "totalContributed": 2000,
+        "avatar": "👩‍🌾"
+      },
+      {
+        "name": "David Park",
+        "email": "david.park@email.com",
+        "role": "member",
+        "joinedDate": "2024-08-20",
+        "totalContributed": 1500,
+        "avatar": "👨‍🌾"
+      },
+      {
+        "name": "Lisa Wong",
+        "email": "lisa.wong@email.com",
+        "role": "member",
+        "joinedDate": "2024-08-25",
+        "totalContributed": 1750,
+        "avatar": "👩‍🔬"
+      },
+      {
+        "name": "James Miller",
+        "email": "james.miller@email.com",
+        "role": "member",
+        "joinedDate": "2024-09-01",
+        "totalContributed": 1500,
+        "avatar": "👨‍🏫"
+      }
+    ],
+    "contributions": [
+      {"id": 27, "name": "Maria Gonzalez", "amount": 1000, "date": "2024-08-20", "method": "community_fund", "note": "Seed funding for garden beds"},
+      {"id": 28, "name": "David Park", "amount": 750, "date": "2024-08-25", "method": "cash", "note": "Tools and equipment"},
+      {"id": 29, "name": "Lisa Wong", "amount": 1000, "date": "2024-09-01", "method": "fundraiser", "note": "Irrigation system fund"},
+      {"id": 30, "name": "James Miller", "amount": 800, "date": "2024-09-05", "method": "grant_match", "note": "Educational program materials"},
+      {"id": 31, "name": "Maria Gonzalez", "amount": 1000, "date": "2024-09-15", "method": "donation", "note": "Shed and storage solutions"},
+      {"id": 32, "name": "David Park", "amount": 750, "date": "2024-09-20", "method": "volunteer_hours", "note": "Labor contribution value"},
+      {"id": 33, "name": "Lisa Wong", "amount": 750, "date": "2024-09-25", "method": "community_fund", "note": "Soil and composting setup"},
+      {"id": 34, "name": "James Miller", "amount": 700, "date": "2024-09-30", "method": "school_partnership", "note": "Educational workshop funding"}
+    ],
+    "milestones": [
+      {"amount": 3000, "description": "Garden beds constructed", "achieved": true, "date": "2024-09-10"},
+      {"amount": 6000, "description": "Irrigation and tools ready", "achieved": true, "date": "2024-09-28"},
+      {"amount": 8500, "description": "Educational programs launched", "achieved": false, "date": null}
+    ],
+    "createdDate": "2024-08-15",
+    "lastActivity": "2024-09-30",
+    "reminderFrequency": "monthly",
+    "autoContribution": false,
+    "tags": ["community", "environment", "education", "sustainability"],
+    "goalImage": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "name": "groupsaving",
+  "private": true,
+  "version": "1.0.0",
+  "description": "A modern React application for collaborative group savings and goal tracking",
+  "keywords": ["react", "savings", "group", "finance", "vite", "recharts"],
+  "homepage": "https://yourusername.github.io/groupsaving",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/groupsaving.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/groupsaving/issues"
+  },
+  "author": "Your Name <your.email@example.com>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "preview": "vite preview",
+    "test:ci": "echo 'No tests specified'",
+    "format": "prettier --write src/**/*.{js,jsx,css}",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.9.3",
+    "recharts": "^3.2.1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.36.0",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.3",
+    "eslint": "^9.36.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.4.0",
+    "vite": "npm:rolldown-vite@7.1.12"
+  },
+  "overrides": {
+    "vite": "npm:rolldown-vite@7.1.12"
+  }
+}
